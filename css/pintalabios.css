@@ -294,8 +294,8 @@ header img{
 /* Frase que te lleva al blog */
 
 .slogan {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
     text-align: center;
 }
 
@@ -324,4 +324,54 @@ header img{
     --bs-btn-active-bg: #b66356;
     --bs-btn-active-border-color: #b66356;
     --bs-btn-active-color: white;
+}
+
+/* Comentarios */
+
+.comentarios {
+    background-color: #FDEDEA;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+.comentarios h2{
+    color: #F08575;
+    text-align: center;
+}
+
+.comentarios p{
+    color: #F08575;
+    font-size: 20px;
+}
+
+.comentarios-personas{
+    padding-left: 15%;
+    text-align: left;
+    line-height: 135%;
+    padding-right: 15%;
+}
+
+.comentarios-personas h5{
+    text-align: left;
+    color: #F08575;
+    padding-top: 5%;
+}
+
+.comentarios-personas img{
+    padding-right: 2%;
+}
+
+.comentarios-personas p{
+    padding-top: 2%;
+    color: #515354;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 0;
+    padding-right: 23%;
+}
+
+hr{
+    color:#F08575;
+    border-width: 2px;
 }
