@@ -5,6 +5,7 @@ body{
 
  /* HEADER */
 
+
 .bg-body-tertiary{
     background-color: #F08575!important;
 }
@@ -75,8 +76,8 @@ header img{
 /* PRODUCTO */
 
 .producto{
-    padding-top: 15%;
-    padding-bottom: 3%;
+    margin-top: 9%;
+    padding-bottom: 2.5%;
 }
 
 .texto-producto{
@@ -173,7 +174,6 @@ header img{
 
 .accordion-body{
     color: #515354;
-    font-family: Roboto Condensed;
     font-size: 13px;
     font-weight: 300;
 }
@@ -181,4 +181,147 @@ header img{
 .accordion{
    --bs-accordion-btn-focus-box-shadow:none !important;
    --bs-accordion-active-bg: #f0857594;
+}
+
+/* Beneficios y Modo de empleo */
+
+.beneficios{
+    background-color: #FDEDEA;
+}
+
+.justify-content-end {
+    justify-content:flex-start !important;
+} 
+
+.beneficios h2{
+    font-weight:lighter;
+    padding-top: 13%;
+    font-size: 35px;
+    padding-bottom: 5%;
+}
+
+.v-line{
+    border-left: solid #515354;
+    height:77%;
+    left: 7%;
+    position: absolute;
+    margin-top: 4%;
+}
+
+.v-line2{
+    border-left: solid #515354;
+    height:34%;
+    left: 51%;
+    position: absolute;
+    margin-top: 4%;
+}
+
+.empleo{
+    background-color: #FDEDEA;
+}
+
+.columna{
+    margin-left: 9%;
+    margin-bottom: 3%;
+}
+
+.columna2{
+    margin-left: 10%;
+}
+
+.columna h3{
+    color: #515354;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.columna p{
+    color: #515354;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 104%;
+    padding-bottom: 3%;
+}
+
+.columna2 h3{
+    color: #515354;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.columna2 p{
+    color: #515354;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 104%;
+    padding-bottom: 3%;
+}
+
+.opiniones1 h4{
+    padding-left:0;
+    margin-left: 0;
+    color: #F08575;
+    font-size: 23px;
+    font-weight: 500;
+    padding-top: 12%;
+}
+
+.opiniones1 p{
+    text-align: right;
+    color: #F08575;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.opiniones h4{
+    padding-left:0;
+    margin-left: 0;
+    color: #F08575;
+    font-size: 23px;
+    font-weight: 500;
+    padding-top: 5%;
+}
+
+.opiniones p{
+    text-align: right;
+    color: #F08575;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Frase que te lleva al blog */
+
+.slogan {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.slogan h2 {
+    color: #F08575;
+}
+
+.btn-primary2 {
+    border: solid;
+    border-color: #F08575;
+    color: #F08575;
+    margin-top: 2%;
+}
+
+.btn-primary2:hover {
+    border: solid;
+    border-color: #F08575;
+    color: white;
+    background-color: #F08575;
+}
+
+.btn-primary2:active {
+    border: solid;
+    color: white;
+    background-color: #F08575;
+    --bs-btn-active-bg: #b66356;
+    --bs-btn-active-border-color: #b66356;
+    --bs-btn-active-color: white;
 }
