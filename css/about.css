@@ -114,9 +114,151 @@ header img{
  @media (max-width: 576px) { 
 
     .raya{
-        margin-top: 4%;
+        margin-top: 3.5%;
     }
 
+ }
+
+ /* main */
+
+ /* info 01 */
+
+ .info-01 .card-text{
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #F08575;
+    font-size: 16px;
+    font-weight: 400;  
+ }
+
+ .card{
+    border: none;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    padding-left: 20%;
+    padding-right: 20%;
+ }
+
+ .card .row{
+    align-items: center;
+    justify-content: center;
+ }
+
+ .card .col-md-8{
+    width: 57%;
+ }
+
+ .card .col-md-4{
+    width: 35%;
+ }
+
+ .card-body{
+    padding-right:0;
+ }
+
+ @media (max-width: 992px){
+
+    .info-01 .card-text{
+        width: 89%;
+    }
+
+    .card{
+        margin-top: 8%;
+        margin-bottom: 8%;
+        padding-left: 5%;
+        padding-right: 5%;
+     }
+ }
+
+ @media (max-width: 576px){
+    .card .row{
+       flex-direction: column;
+       align-content: flex-start;
+     }
+
+     .info-01{
+        margin-top: 8%;
+        margin-bottom: 8%;
+        padding-left: 0;
+        padding-right: 0;
+     }
+
+     .card .col-md-8{
+        width: 100%;
+     }
+
+     .card .col-md-4{
+        width: 50%;
+        position: absolute;
+        right: 0;
+        margin-top: 145%;
+     }
+
+     .info-01 .card-text{
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+ }
+
+/* info 02 */
+
+.info-02{
+    background-color: #FDEDEA;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-bottom: 0;
+    padding-left: 15%;
+}
+
+.info-02 .card-body{
+    padding-left: 12%;
+}
+
+.info-02 .card-text{
+    display: flex;
+    width: 128%;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-weight: 400;  
+ }
+
+ @media (max-width: 992px){
+    .info-02{
+        padding-left: 6%;
+        padding-right: 14%;
+    }
+ }
+
+ @media (max-width: 576px){
+
+    .info-02{
+        padding: 5%;
+        margin-top: 71.3%;
+    }
+
+    .info-02 .col-md-4{
+        width: 50%;
+        position: absolute;
+        right: 195px;
+        top: -163%;
+    }
+
+    .info-02 .card-text{
+        width: 100%;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .info-02 .row{
+        text-align: end;
+    }
  }
 
 /* footer */
