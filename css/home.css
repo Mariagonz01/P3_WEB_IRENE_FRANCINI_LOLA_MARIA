@@ -5,7 +5,7 @@ body{
 
  /* HEADER */
 
-.bg-body-tertiary{
+ .bg-body-tertiary{
     background-color: #F08575!important;
 }
 
@@ -71,6 +71,58 @@ header img{
     --bs-btn-active-bg: #F08575;
     --bs-btn-active-border-color: #fff;
 }
+
+.navbar-toggler-icon{
+    display: contents;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.navbar-toggler {
+    color: transparent;
+    border: none;
+}
+
+@media (max-width: 992px) { 
+    .logoheader{
+        display: none;
+    }
+
+    .navbar-nav{
+        flex-direction: row;
+    }
+
+    .raya{
+        margin-top: 1.9%;
+    }
+
+    .nav-link{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .iconos{
+        justify-content: center;
+    }
+ }
+
+ @media (max-width: 576px) { 
+
+    .raya{
+        margin-top: 4%;
+    }
+
+ }
+
+/* carrousel */
+
+
+
 /* footer */
 
 footer{
@@ -116,4 +168,10 @@ footer .nav {
         font-size: 11px;
         font-weight: 400;
         color: #FDEDEA !important;
+    }
+
+    .footer-logo{
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
     }

@@ -3,6 +3,7 @@ body{
     margin: 0;
  }
 
+
  /* HEADER */
 
 
@@ -31,7 +32,7 @@ header img{
 }
 
 .raya{
-    margin-top: 6.7%;
+    margin-top: 4%;
     color: #FFF;
     font-size: 18px;
     line-height: 115%;
@@ -73,10 +74,57 @@ header img{
     --bs-btn-active-border-color: #fff;
 }
 
+.navbar-toggler-icon{
+    display: contents;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.navbar-toggler {
+    color: transparent;
+    border: none;
+}
+
+@media (max-width: 992px) { 
+    .logoheader{
+        display: none;
+    }
+
+    .navbar-nav{
+        flex-direction: row;
+    }
+
+    .raya{
+        margin-top: 1.9%;
+    }
+
+    .nav-link{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .iconos{
+        justify-content: center;
+    }
+ }
+
+ @media (max-width: 576px) { 
+
+    .raya{
+        margin-top: 4%;
+    }
+
+ }
+
 /* PRODUCTO */
 
 .producto{
-    margin-top: 9%;
+    margin-top: 12%;
     padding-bottom: 2.5%;
 }
 
@@ -181,6 +229,15 @@ header img{
 .accordion{
    --bs-accordion-btn-focus-box-shadow:none !important;
    --bs-accordion-active-bg: #f0857594;
+}
+
+@media (max-width: 576px){
+    .img-movil{
+        margin-top: 40px;
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+        padding-bottom:10%;
+    }
 }
 
 /* Beneficios y Modo de empleo */
@@ -291,6 +348,24 @@ header img{
     font-weight: 400;
 }
 
+@media (max-width: 576px){
+
+    .beneficios .col-4{
+     width: 75%;
+    }
+    
+    .v-line{
+     margin-top: 11%;
+     height: 104%;
+    }
+    
+    .v-line2 {
+     left: 7%;
+     margin-top: 12%;
+    }
+}
+
+
 /* Frase que te lleva al blog */
 
 .slogan {
@@ -308,6 +383,7 @@ header img{
     border-color: #F08575;
     color: #F08575;
     margin-top: 2%;
+
 }
 
 .btn-primary2:hover {
@@ -375,3 +451,57 @@ hr{
     color:#F08575;
     border-width: 2px;
 }
+
+/* footer */
+
+footer{
+    background-color: #6E9394;
+}
+
+footer .f-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 400;
+    color: #FDEDEA !important;
+}
+
+footer .f-1 .nav-link {
+    padding: 0%;
+    padding-top:1%;
+    }
+
+footer .nav {
+    --bs-nav-link-color: none;
+    --bs-nav-link-hover-color: none;
+    --bs-nav-link-disabled-color: none;
+    }
+
+    footer p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+        font-weight: 500;
+        color: #FDEDEA !important;
+    }
+
+    footer .f-2{
+        justify-content: center;
+    }
+
+    footer .f-3{
+        display: flex;
+        justify-content: center;
+        font-size: 11px;
+        font-weight: 400;
+        color: #FDEDEA !important;
+    }
+
+    .footer-logo{
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
+
