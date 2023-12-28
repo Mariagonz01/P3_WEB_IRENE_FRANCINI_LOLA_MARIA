@@ -121,6 +121,128 @@ header img{
 
 /* carrousel */
 
+@media (max-width: 576px){
+    .img-movil{
+        margin-top: 15%;
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+        padding-bottom:10%;
+    }
+}
+
+/* Nuestras Colecciones */
+
+ /* Card */
+ 
+  .card{
+    --bs-card-border-width: none !important;
+    --bs-card-border-radius: none !important;
+    --bs-card-inner-border-radius: none !important;
+  }
+ 
+  /* foto overlay */
+
+  .row{
+    --bs-gutter-x: 0rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+    align-items: center !important;
+  }
+ 
+  .image-container img{
+     height: auto;
+     display: block;
+  }
+ 
+  .card-img-overlay{
+     position: absolute;
+     top: 0;
+     left: 0;
+     background-color: rgba(0, 0, 0, 0); /* Inicialmente transparente */
+     transition: background-color 0.3s;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-end;
+     text-align: left;
+     opacity: 0;
+  }
+ 
+  .card-img-overlay h5{
+    font-size: 16px;
+     font-weight: 400;
+     color: black;
+     margin-bottom: 2px;
+  }
+ 
+  .card-img-overlay p{
+    font-size: 25px;
+     font-weight: 700;
+     color: black;
+     margin-bottom: 2px;
+  }
+ 
+  .grande h5{
+    font-size: 21px;
+     font-weight: 400;
+     color: black;
+     margin-bottom: 2px;
+  }
+ 
+  .grande p{
+    font-size: 30px;
+     font-weight: 700;
+     color: black;
+     margin-bottom: 2px;
+  }
+ 
+  .image-container:hover .card-img-overlay {
+     background-color: #fefae090; /* Color de fondo con opacidad al pasar el cursor */
+     opacity: 1;
+ }
+
+ /* Encuentra tu tono de piel */
+
+ .tonopiel{
+    background-color: #FDEDEA;
+    padding-left: 10%;
+    padding-top: 0.5%;
+}
+
+.texto-piel p{
+    color: #515354;
+    line-height: 120%;
+    padding-top: 2%;
+}
+
+.btn-primary{
+    color: #F08575;
+    border-color: #F08575;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: rgba(40, 54, 24, 0);
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #F08575;
+  --bs-btn-hover-border-color: #ffffff;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #ad4f41;
+  --bs-btn-active-border-color: white;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #28361800;
+  --bs-btn-disabled-border-color: white;
+
+  font-size: 14px;
+  font-weight: 400;
+  --bs-btn-padding-x: 9px;
+  --bs-btn-padding-y: 7px;
+  border-radius: 6px;
+  border-width: 1.5px;
+  margin-right: 3px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+ }
 
 
 /* footer */
