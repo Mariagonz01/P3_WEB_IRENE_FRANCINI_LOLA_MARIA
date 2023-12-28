@@ -90,7 +90,7 @@ header img{
     border: none;
 }
 
-@media (max-width: 576px){
+@media (max-width: 992px) { 
     .logoheader{
         display: none;
     }
@@ -100,7 +100,7 @@ header img{
     }
 
     .raya{
-        margin-top: 4%;
+        margin-top: 1.9%;
     }
 
     .nav-link{
@@ -111,7 +111,15 @@ header img{
     .iconos{
         justify-content: center;
     }
-}
+ }
+
+ @media (max-width: 576px) { 
+
+    .raya{
+        margin-top: 4%;
+    }
+
+ }
 
 /* PRODUCTO */
 
