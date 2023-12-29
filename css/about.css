@@ -261,6 +261,14 @@ header img{
     }
  }
 
+/* 3D */
+
+.cont-img .col{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
 /* footer */
 
 footer{
@@ -313,3 +321,67 @@ footer .nav {
         justify-content: center;
         margin-top: 2%;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #map {
+        height: 400px;
+        }
