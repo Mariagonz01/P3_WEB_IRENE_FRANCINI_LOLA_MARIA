@@ -4,9 +4,10 @@ body{
  }
 
  @font-face {
-    font-family: "Rockabye";
+    font-family: "Acumin";
     src: url("https://www.dafont.com/rockabye.font?text=bloom");
 }
+
 
  /* HEADER */
 
@@ -135,15 +136,26 @@ header img{
     }
 }
 
-/* Nuestras Colecciones */
+/* Títulos de cada apartado */
 
+.titulo{
+    line-height: 0%;
+}
 
-.colecciones h2{
+.titulo h2{
     color: #F08575;
     font-family: "Rockabye";
     font-size: 102px;
     line-height: normal;
     padding-left: 2%;
+    padding-bottom: 0;
+}
+
+.titulo p{
+    padding-left: 16%;
+    font-size: 51px;
+    font-weight: lighter;
+    color: #515354;
 }
 
 
@@ -155,7 +167,8 @@ header img{
     --bs-card-inner-border-radius: none !important;
     padding-left: 2%;
     padding-right: 2%;
-    padding-bottom: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
   }
  
   /* foto overlay */
@@ -267,7 +280,20 @@ header img{
     color: #F08575;
     size: 3px;
     width: 801px;
-    align-items: center;
+    margin: 0 auto;
+}
+
+hr {
+    opacity: 1;
+}
+
+/* Valores */
+
+.valores{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 /* footer */
