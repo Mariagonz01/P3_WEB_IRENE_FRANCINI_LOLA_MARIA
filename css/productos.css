@@ -119,6 +119,70 @@ header img{
 
  }
 
+/* Cabecera */
+
+@media (max-width: 576px){
+    .img-movil{
+        margin-top: 20%;
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+}
+
+
+/* Botones arrriba */
+
+.botones{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.btn-primary{
+    color: #F08575;
+    border-color: #F08575;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: rgba(40, 54, 24, 0);
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #F08575;
+  --bs-btn-hover-border-color: #F08575;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #ad4f41;
+  --bs-btn-active-border-color: #ad4f41;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #28361800;
+  --bs-btn-disabled-border-color: white;
+
+  font-size: 14px;
+  font-weight: 400;
+  --bs-btn-padding-x: 9px;
+  --bs-btn-padding-y: 7px;
+  border-radius: 6px;
+  border-width: 1.5px;
+  margin-right: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.maquillaje{
+    margin-left: 10%;
+    padding: 0;
+}
+
+.titulo h1{
+    color: #515354;
+    font-weight: lighter;
+}
+
+.titulo p{
+    color: #515354;
+    display: inline-block;
+}
+
+.titulo hr{
+    width: 80%;
+}
+
 /* footer */
 
 footer{
