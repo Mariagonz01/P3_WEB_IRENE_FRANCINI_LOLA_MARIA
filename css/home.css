@@ -8,6 +8,14 @@ body{
     src: url("https://www.dafont.com/rockabye.font?text=bloom");
 }
 
+@media (max-width: 576px) { 
+
+    body{
+        width: 124%;
+    }
+ }
+
+
 
  /* HEADER */
 
@@ -120,9 +128,8 @@ header img{
  @media (max-width: 576px) { 
 
     .raya{
-        margin-top: 4%;
+        margin-top: 3%;
     }
-
  }
 
 /* carrousel */
@@ -214,6 +221,17 @@ header img{
      opacity: 1;
  }
 
+ @media (max-width: 992px){
+    .card-img-overlay{
+        left: 14px;
+     right: 14px;
+    }
+
+    .grande h4{
+        font-size: 65px;
+    }
+ }
+
  /* Encuentra tu tono de piel */
 
  .tonopiel{
@@ -231,6 +249,10 @@ header img{
     color: #515354;
     line-height: 120%;
     padding-top: 2%;
+}
+
+.fotopiel{
+    width: 70rem;
 }
 
 .btn-primary{
@@ -261,6 +283,34 @@ header img{
   padding-bottom: 0.5%;
 }
 
+
+@media (max-width: 1024px){
+    .fotopiel{
+        width: 52rem;
+    }
+}
+
+@media (max-width: 820px){
+    .fotopiel{
+        width: 42rem;
+    }
+}
+
+@media (max-width: 576px){
+    .fotopiel{
+        width: 25rem;
+    }
+
+    .titulo h2{
+        font-size: 72px;
+    }
+
+    .titulo p{
+        font-size: 39px;
+    }
+
+}
+
 /* Empieza, mejora y perfecciona */
 
 .empieza h5{
@@ -279,13 +329,42 @@ header img{
 .empieza hr{
     color: #F08575;
     size: 3px;
-    width: 801px;
+    width: 100%;
     margin: 0 auto;
 }
 
 hr {
     opacity: 1;
 }
+
+@media (max-width: 992px){
+    .empieza h5{
+        padding-top: 5%;
+    }
+}
+
+@media (max-width: 576px){
+    .empieza img{
+        width: 100%;
+    }
+
+    .empieza .row{
+        flex-direction: column;
+    }
+
+    .empieza h5{
+        font-size: 15px;
+    }
+
+    .empieza p{
+        font-size: 13px;
+    }
+
+    .empieza .fotovalores{
+        width: 90%;
+    }
+
+} 
 
 /* Valores */
 
