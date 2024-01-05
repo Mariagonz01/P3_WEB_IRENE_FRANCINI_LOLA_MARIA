@@ -180,13 +180,99 @@ header img{
 }
 
 .titulo hr{
-    width: 80%;
+    width: 84%;
+}
+
+/* productos */
+
+.maquillaje-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.maquillaje-1 .row>* {
+    padding-right: 0;
+    padding-left:0;
+}
+
+.maquillaje-1 .col-4{
+    width: 32%;
+}
+
+.imagen-container {
+    position: relative;
+    overflow: hidden;
+    margin-right: 2%;
+}
+
+.ultima{
+    margin-right: 0;
+}
+
+.maquillaje-1 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20px;
+}
+
+.maquillaje-1 .colores{
+    width: 40%;
+}
+
+.maquillaje-1 .colores-1{
+    width: 6%;
+}
+
+.maquillaje-1 .colores-2{
+    width: 70%;
+}
+
+.maquillaje-1 .colores-3{
+    width: 50%;
 }
 
 
+.info-tarjeta {
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    padding: 17px;
+    box-sizing: border-box;
+    transition: bottom 0.3s ease-in-out;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
 
-/* targeta */
+.mas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3%;
+}
 
+.info-tarjeta h5{
+    font-weight: 600;
+    margin-bottom: 1%;
+}
+
+.info-tarjeta p{
+    font-size: 14px;
+
+}
+
+.imagen-container:hover .info-tarjeta {
+    bottom: 0;
+}
 
 /* footer */
 
