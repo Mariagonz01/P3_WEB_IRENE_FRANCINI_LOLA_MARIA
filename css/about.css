@@ -280,6 +280,76 @@ header img{
 }
 
 
+/* mapa */
+
+.mapa {
+    border: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.mapa h5{
+    color:#F08575 ;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.mail img{
+    margin-right: 2%;
+}
+
+.mail p{
+    margin: 0;
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.phone img{
+    margin-right: 2%;
+}
+
+.phone p{
+    margin: 0;
+}
+
+@media (max-width: 992px){
+
+    .mapa .row .col-6{
+        width: 47%;
+        padding-top: 5%;
+    }
+
+    .mapa .row .col-md-5 {
+        width: 53%;
+    }
+
+}
+
+@media (max-width: 576px){
+
+    .mapa .row .col-6{
+        width: 100%;
+        padding-top: 5%;
+    }
+
+    .mapa .row .col-md-5 {
+        width: 100%;
+    }
+
+}
+
+
+
 /* newsletter */
 
  .NEWSLETTER{
