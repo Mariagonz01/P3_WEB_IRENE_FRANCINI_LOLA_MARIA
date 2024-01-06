@@ -121,6 +121,16 @@ header img{
 
  /* main */
 
+ .portada{
+    margin-top: 5%;
+ }
+
+ @media (max-width: 576px){
+    .portada{
+        margin-top: 20%;
+    }
+ }
+
  /* info 01 */
 
  .info-01 .card-text{
@@ -267,6 +277,128 @@ header img{
     display: flex;
     flex-direction: row;
     width: 50%;
+}
+
+
+/* mapa */
+
+.mapa {
+    border: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.mapa h5{
+    color:#F08575 ;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.mail img{
+    margin-right: 2%;
+}
+
+.mail p{
+    margin: 0;
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.phone img{
+    margin-right: 2%;
+}
+
+.phone p{
+    margin: 0;
+}
+
+@media (max-width: 992px){
+
+    .mapa .row .col-6{
+        width: 47%;
+        padding-top: 5%;
+    }
+
+    .mapa .row .col-md-5 {
+        width: 53%;
+    }
+
+}
+
+@media (max-width: 576px){
+
+    .mapa .row .col-6{
+        width: 100%;
+        padding-top: 5%;
+    }
+
+    .mapa .row .col-md-5 {
+        width: 100%;
+    }
+
+}
+
+
+
+/* newsletter */
+
+ .NEWSLETTER{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #F08575;
+    color: white;
+    font-weight: 500;
+ }
+
+ .form-check-input{
+    width: 25px;
+    height: 25px;
+    border-radius: 7px !important;
+    margin-top: 0;
+ }
+
+ .form-check-input:checked {
+    background-color: #f8bab1;
+    border-color: #f8bab1;
+}
+
+.btn-primary {
+    --bs-btn-color: #ffffff;
+    --bs-btn-bg: #F08575;
+    --bs-btn-border-color: #ffffff;
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: #F08575;
+    --bs-btn-hover-border-color: #F08575;
+    --bs-btn-focus-shadow-rgb: none;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #ad4f41;
+    --bs-btn-active-border-color: #ad4f41;
+    --bs-btn-active-shadow: none;
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #28361800;
+    --bs-btn-disabled-border-color: white;
+
+    font-size: 17px;
+    font-weight: 500;
+    border-width: 2px;
+}
+
+@media (max-width: 576px){
+    .NEWSLETTER img{
+        width: 80%;
+    }
 }
 
 /* footer */
