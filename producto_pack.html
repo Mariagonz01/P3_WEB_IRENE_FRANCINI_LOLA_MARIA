@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom-Pack limpiador y crema</title>
+
+    <!-- LINKS -->
+        <!-- css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/pintalabios.css">
+        <!-- java -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- otros -->
+        <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="img/logobloom.png"/>
+        <link rel="shortcut icon" type="image/x-icon" href="img/logobloom.png"/>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid header2">
+                <img class="logoheader" src="img/logoheader.png" alt="logoheader" height="54">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><img src="img/logoheader.png" alt="logoheader" height="54"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 apartados">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                </li>
+                <li class="raya">
+                    |
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="productos.html">Productos</a>
+                </li>
+                <li class="raya">
+                    |
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+
+
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        España
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">France</a></li>
+                        <li><a class="dropdown-item" href="#">Alemania</a></li>
+                        <li><a class="dropdown-item" href="#">Reino Unido</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mb-2 mb-lg-2 iconos">
+                    <li class="icono1">
+                        <img src="img/perfilheader.svg" alt="perfilheader" height="25">                    
+                    </li>
+                    <li class="icono2">
+                        <img src="img/corazonheader.svg" alt="corazonheader" height="22">                    
+                    </li>
+                    <li>
+                        <img src="img/bolsaheader.svg" alt="bolsaheader" height="25">                  
+                    </li>
+
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- MAIN -->
+        <!-- Producto -->
+
+      <div class="container producto">
+        <div class="row">
+          <div class="col-12 col-lg-6 img-movil">
+                <div id="carouselExampleCaptions" class="carousel slide img-fluid">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                      <img src="img/producto_pintalabios.png" alt="" width="100%">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/pintalabios_colores.png" alt="" width="100%">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>            
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="text-wrap texto-producto">
+              <img src="img/producto_valoracion.png" alt="producto_valoracion" height="20">              
+              <h1>Pack limpiador y crema    <img src="img/producto_corazon.png" alt="producto_corazon" height="22">
+              </h1> 
+              <p>Pigmenta y da color a tu rostro</p>
+              <h5>12,99€</h5>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                <label class="btn btn-outline-primary" for="btnradio1">VINO</label>
+              
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio2">TIRAMISÚ</label>
+              
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio3">RED VELVET</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio4">MELOCOTÓN</label>
+            </div>
+
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button"><h5>AÑADIR AL CARRITO</h5></button>
+            </div>
+
+
+            <div class="accordion accordion-flush acordeon-producto" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    DESCRIPCIÓN
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    Esta fórmula excepcionalmente suave se desliza con la delicadeza de un sueño sobre tus labios, ofreciendo 
+                    un estallido instantáneo de color rico y duradero. Disfruta de la elegancia y la comodidad mientras este 
+                    pintalabios se adhiere de manera impecable a tus labios, manteniendo su vibrante intensidad sin causar 
+                    resequedad. Con cada aplicación, experimenta la fusión perfecta de suavidad y color que perdura 
+                    cómodamente en su lugar, resaltando tu belleza con un toque distintivo y lujoso.
+                  </div>
+              </div>
+              <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        INGREDIENTES
+                    </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">                    
+                        AFFECTION:WATER (AQUA/EAU), DIPHENYL DIMETHICONE, DIISOSTEARYL MALATE, BIS-DIGLYCERYL POLYACYLADIPATE-2,
+                        OCTYLDODECANOL, BIS-BEHENYL/ISOSTEARYL/PHYTOSTERYL DIMER DILINOLEYL DIMER DILINOLEATE, HYDROGENATED 
+                        POLYISOBUTENE, GLYCERIN, DIPROPYLENE GLYCOL, CETYL PEG/PPG-10/1 DIMETHICONE, SORBITAN ISOSTEARATE, 
+                        POLYSORBATE 60, PENTYLENE GLYCOL, PHENOXYETHANOL, HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL 
+                        TAURATE COPOLYMER, MENTHOXYPROPANEDIOL, CETEARETH-20, SQUALANE, FRAGRANCE (PARFUM), SIMMONDSIA 
+                        CHINENSIS (JOJOBA).                 
+                    </div>
+                    </div>
+                </div>
+              </div>
+              </div>          
+         </div>
+       </div>
+    </div>
+
+    <!-- Beneficios -->
+
+    <div class="container-fluid">
+        <div class="row justify-content-end beneficios">
+            <div class="col-4 columna">
+                    <div class="v-line"></div>
+                    <h2>beneficios</h2>
+                    <div>
+                        <h3>Hidratación duradera con color</h3>
+                        <p>La fórmula envuelve los labios en una 
+                        hidratación duradera con un toque de color y brillo.</p>
+                    </div>
+                    <div>
+                        <h3>Labios con aspecto saludable</h3>
+                        <p>No vuelvas a tener heridas ni problemas en ellos
+                             en las épocas de calor o frío.</p>
+                    </div>
+                    <div>
+                        <h3>No es pegajoso</h3>
+                        <p>La fórmula envuelve los labios en una 
+                        hidratación duradera con un toque de color y brillo.</p>
+                    </div>
+                    <div>
+                        <h3>Llévalo siempre contigo</h3>
+                        <p>Su diseño permite llevarlo siempre con uno mismo.</p>
+                    </div>
+                    <div>
+                        <h3>Combínalo con tus otros productos</h3>
+                        <p>LAunque funciona bien de manera individual también 
+                            puedes combinarlo con los otros colores para dar 
+                            un toque aún más personalizado.</p>
+                    </div>
+            </div>
+
+            <div class="col-4 columna2 beneficios">
+                <div class="v-line2"></div>
+                <h2>modo de empleo</h2>  
+                <div>
+                    <h3>Individual</h3>
+                    <p>Aplícalo directamente para un acabado cremoso.</p>
+                </div>
+                <div>
+                    <h3>Combínalo</h3>
+                    <p>Usa nuestro perfilador de labios de diferentes
+                         colores para un acabo más marcado.</p>
+                </div>
+                <div class="opiniones1">
+                    <h4>“Definitivamente, esta marca ha elevado mis estándares de 
+                        calidad y personalización en el mundo del maquillaje. 
+                        ¡Absolutamente impresionante!"</h4>
+                    <p>- Ana Mena</p>
+                </div>  
+                <div class="opiniones">
+                    <h4><div class="opiniones">
+                        <h4>““Nunca antes había sentido que mi maquillaje 
+                            se adaptara tan perfectamente a mi piel y estilo""</h4>
+                        <p>- Lola Índigo</p>
+                </div>     
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Slogan -->
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="slogan">
+                <h2>¿Quieres saber más, sobre nuestros <br> productos y cómo usarlos? </h2>
+                <button type="button" class="btn btn-primary2">VISITA NUESTRO BLOG</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Comentarios -->
+
+    <div class="container-fluid">
+        <div class="row comentarios">
+
+            <div>
+                <h2>COMENTARIOS</h2>
+                <p><img src="img/comentarios_valoracion.png" alt="comentarios_valoracion" height="23"> (125) </p>
+                <button type="button" class="btn btn-primary2">DEJA UN COMENTARIO</button>
+            </div>
+
+            <div class="comentarios-personas">
+                <h5><img src="img/comentarios_valoracion.png" alt="comentarios_valoracion" height="23"> Maquillaje y cuidado de la piel, Mónica Sánchez </h5>
+                <p>Este maquillaje es en realidad cuidado de la piel. El pintalabios además de cumplir con 
+                    su función me ha dejado los labios completamente hidratados. Lo volvería a comprar sin duda, 10/10.</p>
+                <img src="img/comentarios_pulgararriba.png" alt="comentarios_pulgararriba" height="22"><img src="img/comentarios_pulgarabajo.png" alt="comentarios_pulgarabajo" height="22">
+                <hr>
+            </div>
+            <div class="comentarios-personas">
+                <h5><img src="img/comentarios_valoracion4.png" alt="comentarios_valoracion" height="23"> Es un esencial, Cristina Gutierrez </h5>
+                <p>No puedo evitar hablar con entusiasmo del hermoso empaque de esta joya: ¡un tesoro para desempaquetar! El color es divino, 
+                    absolutamente perfecto para cualquier look. También es muy hidratante y se desliza suavemente, dejando mis labios carnosos y hermosos. ¡Lo recomendaría totalmente!</p>
+                <img src="img/comentarios_pulgararriba.png" alt="comentarios_pulgararriba" height="22"><img src="img/comentarios_pulgarabajo.png" alt="comentarios_pulgarabajo" height="22">
+                <hr>
+            </div>
+            <div class="comentarios-personas">
+                <h5><img src="img/comentarios_valoracion.png" alt="comentarios_valoracion" height="23">Muy buena calidad, Estefanía López</h5>
+                <p>¡Oh, la calidad de este pintalabios está más allá de las palabras! Se siente tan bien, suave y nutritivo. El ingrediente único agrega una capa extra de serenidad. 
+                    ¡El empaque es tan hermoso y encantador como el producto!</p>
+                <img src="img/comentarios_pulgararriba.png" alt="comentarios_pulgararriba" height="22"><img src="img/comentarios_pulgarabajo.png" alt="comentarios_pulgarabajo" height="22">
+                <hr>
+            </div>
+            <div class="comentarios-personas">
+                <h5><img src="img/comentarios_valoracion.png" alt="comentarios_valoracion" height="23"> Calidad precio a la perfección, Marina Peláez</h5>
+                <p>Nunca antes había comprado un producto que tuviese tan buena calidad a tan buen precio. Podrías pensar que por esto sería un producto más cutre y de menos 
+                    calidad, pero todo lo contrario, desde el principio te sientes adquiriendo un producto de lujo. ¡Por fin una marca que se adapta a nosotros!</p>
+                <img src="img/comentarios_pulgararriba.png" alt="comentarios_pulgararriba" height="22"><img src="img/comentarios_pulgarabajo.png" alt="comentarios_pulgarabajo" height="22">
+                <hr>
+            </div>
+    
+        </div>
+    </div>
+    </main>
+
+    <!-- FOOTER -->
+ 
+  <footer>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="footer-logo">
+          <img src="img/BloomLogoDef_Mesa de trabajo 1 copia.png" alt="" width="15%">
+        </div>
+  
+        <ul class="nav pb-3 mb-3 f-1">
+          <p>© 2023 Bloom Cosmetics</p>
+          <br>
+          <br>
+          <li class="nav-item"><a href="#" class="nav-link ">Dirección: Calle Fuencarral 40, Madrid, España</a></li>
+          <li class="nav-item"><a href="#" class="nav-link ">Email. bloomcosmetics@gmail.com</a></li>
+          <li class="nav-item"><a href="#" class="nav-link ">Tlfn. +34 764 38 65 43</a></li>
+        </ul>
+          <p class="text-center ">¡Síguenos en nuestras redes sociales para no perderte nada!</p>
+  
+  
+          <ul class="nav pb-3 mb-3 f-2">
+            <li class="nav-item"><a href="#" class="nav-link "><img src="https://api.iconify.design/bi/instagram.svg?color=%23fdedea&width=30&height=30" alt="" width="100%"></a></li>
+            <li class="nav-item"><a href="#" class="nav-link "><img src="https://api.iconify.design/ant-design/facebook-filled.svg?color=%23fdedea&width=30&height=30" alt="" width="100%"></a></li>
+            <li class="nav-item"><a href="#" class="nav-link "><img src="https://api.iconify.design/ri/twitter-x-fill.svg?color=%23fdedea&width=30&height=30" alt="" width="100%"></a></li>
+          </ul>
+  
+          <ul class="nav pb-3 mb-3 f-3">
+            <li class="nav-item"><a href="#" class="nav-link ">POLÍTICAS DE PRIVACIDAD</a></li>
+            <li class="nav-item"><a href="#" class="nav-link ">CONDICIONES GENERALES</a></li>
+            <li class="nav-item"><a href="#" class="nav-link ">AVISO LEGAL</a></li>
+            <li class="nav-item"><a href="#" class="nav-link ">POLÍTICA DE COOKIES</a></li>
+          </ul>
+      </div>
+      </div>
+  </footer>
+</body>
+</html>

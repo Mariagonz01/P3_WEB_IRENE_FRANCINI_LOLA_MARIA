@@ -169,6 +169,10 @@ header img{
     padding: 0;
 }
 
+.titulo{
+    padding-bottom: 0;
+}
+
 .titulo h1{
     color: #515354;
     font-weight: lighter;
@@ -179,8 +183,10 @@ header img{
     display: inline-block;
 }
 
-.titulo hr{
+.maquillaje hr{
     width: 84%;
+    margin-top: 0;
+    margin-bottom: 3%;
 }
 
 /* productos */

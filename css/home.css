@@ -143,6 +143,38 @@ header img{
     }
 }
 
+/* Botón de la Newsletter */
+
+.newsletter{
+    margin-top: 5%;
+}
+
+.modal{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.modal-header h1{
+    color: #F08575;
+}
+
+.modal-body{
+    color: #1D1D1B;
+}
+
+.modal-body p{
+    font-size: 15px;
+    color: #515354;
+}
+
+
+.modal-footer {
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:flex-start;
+}
+
 /* Títulos de cada apartado */
 
 .titulo{
